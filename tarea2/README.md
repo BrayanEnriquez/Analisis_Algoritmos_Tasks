@@ -1,8 +1,9 @@
-merge-sorted-array:
-    link: https://leetcode.com/problems/merge-sorted-array/description/ 
-    criterio: Bubble Sort
-    complejidad: Tiempo O((m+n)²) y Espacio O(m+n)
-sort-colors:
-    link: https://leetcode.com/problems/sort-colors/description/ 
-    criterio: Two Pointers
-    complejidad: Tiempo O(n) y Espacio O(1)
+## Merge Sorted Array
+- Link: https://leetcode.com/problems/merge-sorted-array/description/
+- Criterio: Bubble Sort
+- Complejidad: Tiempo O((m+n)²), Espacio O(m+n)
+ 
+## Sort Colors
+- Link: https://leetcode.com/problems/sort-colors/description/
+- Criterio: Dutch National Flag / Three Pointers
+- Complejidad: Tiempo O(n), Espacio O(1)
