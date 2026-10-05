@@ -1,4 +1,5 @@
 ## 56. Merge Intervals
+Problema: https://leetcode.com/problems/merge-intervals/
 
 Familia: Ordenamiento
 Idea: Se ordenan los intervalos según su valor inicial. Luego se recorren en orden y se fusionan aquellos que se superponen, manteniendo siempre el último intervalo construido.
@@ -13,6 +14,7 @@ Complejidad:
 
 ## 200. Number of Islands
 
+Problema: https://leetcode.com/problems/number-of-islands/
 
 Familia: Grafos 
 
@@ -28,6 +30,8 @@ Complejidad:
 
 ## 1143. Longest Common Subsequence
 
+Problema: https://leetcode.com/problems/longest-common-subsequence/
+
 Familia: Programación Dinámica
 
 Idea: Se construye una tabla DP donde cada posición almacena la longitud de la subsecuencia común más larga para un prefijo de cada cadena. Si los caracteres coinciden se toma la diagonal más uno; en caso contrario se toma el máximo entre arriba e izquierda.
@@ -42,6 +46,8 @@ Complejidad:
 
 ## 435. Non-overlapping Intervals
 
+Problema: https://leetcode.com/problems/non-overlapping-intervals/
+
 Familia: Greedy
 
 Idea: Se ordenan los intervalos por su punto final. En cada paso se conserva el intervalo que termina primero porque deja más espacio disponible para los siguientes. Los intervalos que generan solapamiento se cuentan como eliminados.
@@ -55,6 +61,8 @@ Complejidad:
 ---
 
 ## 39. Combination Sum
+
+Problema: https://leetcode.com/problems/combination-sum/
 
 Familia: Backtracking
 
